@@ -52,22 +52,21 @@ def get_citizenship(id_number):
 
     TODO: define a function called fizzbuzz and implement the fucntionality above.
     """
-# def fizzbuzz(n):
+def fizzbuzz(n):
        
-#         for i in range(1,n+1):
-#             while i< (n+1):   
-#                     if n<0:
-#                            return "" 
-#                     elif n%3==0 and n%5==0:
-#                         print(" FizzBuzz")
-#                     elif n%5==0:
-#                             print( "Buzz")
-#                     elif n%3==0:
-#                             print( "Fizz")
-#                     else: print (i)
+        for i in range(1,n+1):
+                    if n<0:
+                           return "" 
+                    elif n%3==0 and n%5==0:
+                        print(" FizzBuzz")
+                    elif n%5==0:
+                            print( "Buzz")
+                    elif n%3==0:
+                            print( "Fizz")
+                    else: print (i)
 
     
-#print(fizzbuzz(6))
+print(fizzbuzz(6))
             
 
 #Question 5
