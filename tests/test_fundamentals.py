@@ -2,7 +2,7 @@ from unittest import TestCase
 from io import StringIO
 import fundamentals as fun
 import sys
-#import test_my_tests
+import test_my_tests
 import inspect
 
 class TestFunctions(TestCase):

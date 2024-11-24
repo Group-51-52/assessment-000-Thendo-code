@@ -94,14 +94,15 @@ def check_number(n:int):
 #     If n is non-positive and even then return 'Very weird'
 #     If n is non-positive and odd then return 'Extremely Weird'
 #     """
+    if n<0 : #     If n is non-positive and even then return 'Very weird'
+        if n%2==0:
+          return 'Very weird'
+        else:#     If n is non-positive and odd then return 'Extremely Weird'
+            return 'Extremely Weird'
     if n==0:#     If n is odd, return 'Weird'
           return "Weird"
     elif n%2!=0:#     If n is even and in the inclusive range of 2  to 5 , return 'Not Weird'
           return "Weird"
-    elif n<0 and n%2==0:#     If n is non-positive and even then return 'Very weird'
-          return 'Very weird'
-    elif n<0 and n%2!=0:#     If n is non-positive and odd then return 'Extremely Weird'
-          return 'Extremely Weird'
     elif n%2==0 and n in  range(2,5+1):#     If n is even and in the inclusive range of 6  to 20 , return 'Weird'
           return "Not Weird"
     elif n%2==0 and n in range(6,21):#     If n is even and in the inclusive range of 6  to 20 , return 'Weird'
